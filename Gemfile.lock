@@ -5,6 +5,7 @@ GEM
     haml (4.0.6)
       tilt
     pg (0.18.1)
+    puma (2.15.3)
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
@@ -40,8 +41,12 @@ PLATFORMS
 DEPENDENCIES
   haml
   pg
+  puma
   rack-test
   rspec
   sinatra (>= 1.1.2)
   sinatra-sequel
   sqlite3
+
+BUNDLED WITH
+   1.11.0.pre.2
