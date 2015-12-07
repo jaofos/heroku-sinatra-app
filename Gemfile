@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 gem 'sinatra', '>=1.1.2'
 gem 'sinatra-sequel'
+gem 'puma'
 
 group :development do
   gem 'sqlite3'
